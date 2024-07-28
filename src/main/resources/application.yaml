@@ -1,0 +1,11 @@
+server:
+  port: 3030
+
+notify-service:
+  url: http://localhost:8049
+
+message-service:
+  url: http://localhost:8051
+
+calling:
+  duration: 30 #電話をコールするの上限秒数
